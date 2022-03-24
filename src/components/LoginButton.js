@@ -7,10 +7,10 @@ const LoginButton = () => {
     !isAuthenticated && (
       <Button
         style={{ marginTop: "25%" }}
-        color="primary"
+        color="success"
         onClick={() => loginWithRedirect()}
       >
-        Log In
+        Log In With AuthO
       </Button>
     )
   );

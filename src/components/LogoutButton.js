@@ -8,7 +8,7 @@ const LogoutButton = () => {
     isAuthenticated && (
       <Button
         style={{ marginTop: "5%" }}
-        color="primary"
+        color="danger"
         onClick={() => logout()}
       >
         Log Out
